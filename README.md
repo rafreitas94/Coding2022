@@ -6,4 +6,3 @@ Lista de comandos básicos do Git para utilizar em aula
 
 > git init
 
-Utilizando o Git no VS Code.
