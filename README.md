@@ -6,3 +6,4 @@ Lista de comandos básicos do Git para utilizar em aula
 
 > git init
 
+Teste de DOR
