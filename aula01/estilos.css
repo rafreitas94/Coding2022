@@ -1,0 +1,12 @@
+h1 {
+    background-color: aqua;
+    font-size: 5em;
+}
+
+#meu-texto {
+    background: green;
+}
+
+.minha-classe {
+    font-size: 2em;
+}
