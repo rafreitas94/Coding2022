@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input {
+  padding: 4px 8px;
+  color: #333333;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover,
+input:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+button:active {
+    background-color: aqua;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.calc-inputs input {
+  margin-bottom: 8px;
+}
+
+.calc-operators {
+  display: flex;
+  justify-content: space-between;
+}
